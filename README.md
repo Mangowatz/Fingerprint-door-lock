@@ -3,6 +3,11 @@ Fingerprint sensor that locks/unlocks door with RGB LED and OLED display feedbac
 
 ABOUT THIS PROJECT
 Zachary Mankowitz
+<div id="badges">
+<a href="https://www.linkedin.com/in/zachary-mankowitz-a4a11324a/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
 
 Introduction
 Let’s describe the problem this invention was designed to solve: for many years, I have been plagued by my siblings unlocking my locked door and sneaking into my room to take my things. The door lock is designed so it can be opened from the outside with a coin. I needed something that wouldn’t allow my siblings to unlock my door and a key that only I would have access to. It is with these goals I set out building my project. (Of course, this project can be applied in real security facilities too).
@@ -26,12 +31,24 @@ The LED’s run at 12 volts, 5 Amps - well over the internal Arduino limit (whic
 
 This is the 3D model mount for the servo along with the interface. The light blue object at the bottom is a 9g servo motor. The deeper blue above that is called a servo horn and gives the servo more leverage when attached. The servo screws into the white/green base. The base has four points of contact to be glued to the knob. The white piece at the top interfaces with the locking pin and is connected to the servo horn.
 
+![alt text](https://hackster.imgix.net/uploads/attachments/1136115/3d_door.PNG?auto=compress%2Cformat&w=1280&h=960&fit=max)
+
 This is what the system looks like in person as well as a schematic view:
 
+![alt text](https://hackster.imgix.net/uploads/attachments/1136114/rgb_diagram_bb.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
+
 This is a schematic of the system except without the fingerprint sensor
+![alt image](https://hackster.imgix.net/uploads/attachments/1136121/rgb_diagram_schematic_schem.png?auto=compress%2Cformat&w=1280&h=960&fit=max)
 
 Pictures
 Top right is a custom solderboard which holds all the MOSFETs and wiring for them together. The top left is the solderboard connected to the system. Bottom left is exterior picture of the fingerprint sensor as well as OLED display
 
+![alt text](https://hackster.imgix.net/uploads/attachments/1136118/WhatsApp_Image_2020-05-22_at_10.14.29_AM__3_.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
+![alt text](https://hackster.imgix.net/uploads/attachments/1136119/WhatsApp_Image_2020-05-22_at_10.14.29_AM__2_.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
+![alt text](https://hackster.imgix.net/uploads/attachments/1136116/WhatsApp_Image_2020-05-22_at_10.14.29_AM.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
+
 RGB Exterior - shows LEDs at different colors
 
+![alt text](https://hackster.imgix.net/uploads/attachments/1136117/WhatsApp_Image_2020-05-22_at_10.14.29_AM__4_.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
+![alt text](https://hackster.imgix.net/uploads/attachments/1136112/WhatsApp_Image_2020-05-22_at_10.14.29_AM__5_.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
+![alt text](https://hackster.imgix.net/uploads/attachments/1136120/WhatsApp_Image_2020-05-22_at_10.14.29_AM__6_.jpeg?auto=compress%2Cformat&w=1280&h=960&fit=max)
